@@ -1,0 +1,14 @@
+.Login-task-form{
+    width: 500px;
+    height: 350px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+
+}
+@media (max-width: 500px) {
+    .Login-task-form{
+        height: 350px;
+        width: 330px;
+        background: #eef1f6;
+    }
+}

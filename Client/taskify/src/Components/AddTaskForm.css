@@ -1,0 +1,16 @@
+.Add-task-form{
+    width: 600px;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+
+
+}
+@media (max-width: 500px) {
+    .Add-task-form{
+        height: 400px;
+        width: 330px;
+        background: #eef1f6;
+        
+    }
+}

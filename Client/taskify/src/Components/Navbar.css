@@ -1,0 +1,8 @@
+.navbar{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.058823529411764705);
+   
+}
+.navbar-nav .nav-link:hover {
+   transition: 0.70;
+    color: rgb(178, 51, 51); 
+  }

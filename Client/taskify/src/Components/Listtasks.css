@@ -1,0 +1,29 @@
+.parent-ListTask{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border :1px solid black; */
+    width: 100%;
+    flex-direction: row-reverse;
+    height: calc(100% - 10%);
+}
+.child-text{
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 300px;
+    padding: 30px;
+    /* border :1px solid black; */
+    background-color: antiquewhite;
+    
+}
+
+
+@media (max-width: 500px){
+    .child-image img{
+        width: 385px;
+    }
+    .child-text{
+        margin:10px
+    }
+}
